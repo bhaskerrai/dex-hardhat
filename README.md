@@ -1,21 +1,6 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Token contract:
+### https://sepolia.etherscan.io/address/0x4DBc7F1Be8C3716Bac9D52AF0035Eb9A80457d3C
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
-
-
-# To verify contract 
-
-Either call the verify function from utils/verify.ts
-
-or run this command on terminal 
-``` yarn hardhat verify --network sepolia contractAddress --constructor-args "arg1,arg2,arg3" ```
+## Exchange contract:
+### https://sepolia.etherscan.io/address/0x77548D6fdB426307B2D76AbE0b8D6fD5b1f5806E 

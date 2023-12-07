@@ -1,13 +1,14 @@
 import { run } from "hardhat";
 
 // Function to verify our contract on etherscan.io
-const verify = async (contractAddress: string, args: any[]) => {
+const verify = async (contractAddress: string, args: any[], contract: string) => {
     console.log("Verifying contract...");
 
     try {
         await run("verify:verify", {
             address: contractAddress,
             constructorArguments: args,
+            contract
         });
     } catch (e) {
         const error = e as any; // Type assertion

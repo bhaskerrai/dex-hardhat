@@ -3,7 +3,7 @@ import "@nomicfoundation/hardhat-toolbox";
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-const SEPOLIA_PRIVATE_KEY = process.env.PRIVATE_KEY || "";
+const SEPOLIA_PRIVATE_KEY = process.env.PRIVATE_KEY_1 || "";
 const INFURA_API_KEY = process.env.INFURA_API_KEY
 const polygonRpc = process.env.POLYGON_RPC
 const POLYGON_PRIVATE_KEY = process.env.POLYGON_PRIVATE_KEY
